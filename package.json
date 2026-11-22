@@ -1,0 +1,16 @@
+{
+  "name": "changeflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ChangeFlow HTTP API for managing change requests",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
